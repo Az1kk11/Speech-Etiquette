@@ -1,0 +1,212 @@
+.app {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* overflow: hidden; */
+}
+
+.app .box {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.app .text-box {
+  flex: 1;
+  height: auto;
+  padding: 80px;
+}
+
+.app .logo-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app .text-box h2 {
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+.app .text-box p {
+  margin-top: 40px;
+  color: #01875f;
+  font-weight: 600;
+}
+
+.app .rate-box {
+  display: flex;
+  margin-top: 40px;
+  margin-left: -20px;
+}
+
+.app .rate-box .rate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-right: 1px solid;
+  padding-right: 20px;
+}
+
+.app .rate-box .rate__right {
+  border: none !important;
+}
+
+.app .rate-box .rate .age-rat {
+  border: 1px solid;
+  color: #111;
+  padding: 0px 1px;
+}
+
+.app .rate-box .rate .rate-text {
+  color: #333;
+  font-weight: 400;
+}
+
+.app .logo-box .logo {
+  width: 230px;
+  height: 230px;
+  margin-top: 50px;
+  margin-right: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 2px 28px 79px -12px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 2px 28px 79px -12px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 2px 28px 79px -12px rgba(0, 0, 0, 0.35);
+}
+.app .mobile-logo .logo{
+    display: none;
+}
+@media (max-width: 820px) {
+  .app .logo-box {
+    display: none;
+  }
+  .app .btn-rate-box {
+    display: flex;
+  }
+  .app .btn-rate-box .download {
+    margin-left: 40px;
+  }
+  .app .mobile-logo{
+    display: flex;
+  }
+  .app .mobile-logo .logo{
+    display: block;
+}
+  .app .mobile-logo p{
+    margin-top: 0;    
+    margin-left: 22px;
+    font-size: 14px;
+  }
+  .app .mobile-logo h2{
+    margin-left: 20px;
+    font-size: 35px;
+  }
+  
+  .app .mobile-logo .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 28px 79px -12px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 2px 28px 79px -12px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 2px 28px 79px -12px rgba(0, 0, 0, 0.35);
+  }
+  .app .mobile-logo .logo img{
+    width: 100%;
+  }
+  .app .text-box{
+    padding: 50px;
+  }
+  .app > p {
+    padding: 0 50px !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .app .rate-box .rate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    border-right: 1px solid;
+    padding-right: 20px;
+  }
+  .app .rate-box{
+    margin-left: -15px;
+  }
+}
+
+@media (max-width: 470px) {
+    .app .mobile-logo .logo{
+        width: 55px;
+        height: 55px;
+        border-radius: 5px;
+    }
+    .app .text-box h2{
+        font-size: 25px;
+    }
+    .app .download{
+        padding: 8px 40px !important;
+        font-size: 24px;
+        margin-left: 1px !important;
+    }
+    .app > p {
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+}
+
+.app .logo-box .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app .download {
+  padding: 12px 50px;
+  margin-top: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: #01875f;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.app > p {
+  padding: 0 80px;
+  margin-bottom: 100px;
+  color: #444;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+@media (max-width: 530px) {
+    .app .text-box{
+        padding: 30px 10px;
+    }
+    .app .btn-rate-box{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .app .rate-box{
+    margin-left: 15px;
+  }
+  .app > p {
+    padding: 0 10px !important;
+  }
+}

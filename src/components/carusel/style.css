@@ -1,0 +1,13 @@
+.carusel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.carusel .img-car-box {
+  width: 650px;
+}
+.carusel .img-car-box img {
+  width: 100%;
+  height: 100%;
+}
