@@ -35,7 +35,15 @@ const App: React.FC = () => {
                 <span className='rate-text'>Rated for 3+</span>
               </div>
             </div>
-            <button className='download'>Download</button>
+            <button className='download'>
+              <a
+                href='https://api.citrusfiles.com/api/files/private_files/fo35w3o5jupg0ke/app_debug_bVsq2WQG7J.apk'
+                download={'Boost Your Reading'}
+              >
+                <i className="ri-download-2-line"></i>
+                74.2m
+              </a>
+            </button>
           </div>
         </div>
         <div className="logo-box">
