@@ -37,11 +37,11 @@ const App: React.FC = () => {
             </div>
             <button className='download'>
               <a
-                href='https://api.citrusfiles.com/api/files/private_files/fo35w3o5jupg0ke/app_debug_bVsq2WQG7J.apk'
-                download={'Boost Your Reading'}
+                href='https://api.citrusfiles.com/api/files/private_files/cjn61noxyhpqn29/speech_etiquette_vHQCjZhcPO.apk'
+                download={'Speech Etiquette'}
               >
                 <i className="ri-download-2-line"></i>
-                74.2m
+                17.9m
               </a>
             </button>
           </div>
