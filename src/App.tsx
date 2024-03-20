@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css'
 import logoImg from './image/se.png'
 import Carusel from './components/carusel'
+import Info from './components/info'
 
 const App: React.FC = () => {
   return (
@@ -54,10 +55,10 @@ const App: React.FC = () => {
       </div>
       <Carusel />
       <p>The Public Speaking app is designed for all users who want to learn and practice English in order to speak fluently with people
-
         The application is Public speaking for beginners and advanced level students. You may have English speaking skills, but these English language skills will not help you when you want to speak in front of people. That's why you need to learn how to speak publicly, and you need to acquire public speaking skills.
-
-        This public speaking app has revealed your inner fear of public speaking through many practical public speaking exercises</p>
+        This public speaking app has revealed your inner fear of public speaking through many practical public speaking exercises
+      </p>
+      <Info/>
     </div>
   )
 }
