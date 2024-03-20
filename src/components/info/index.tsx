@@ -6,8 +6,13 @@ const Info: React.FC = () => {
     return (
         <div className="bio-box">
             <div className="text-box">
-                <img src={bio} alt="" />
-                <h4>UTESHOVA ZERNE HÚRMETILLAEVNA Berdaq atındağı Qaraqalpaq mámleketlik universiteti Inglis tili hám ádebiyatı kafedrası baslığı, filologiya ilimleri kandidatı, docent</h4>
+                <div className="image">
+                    <img src={bio} alt="" />
+                </div>
+                <div className="text-info">
+                    <h3>UTESHOVA ZERNE HÚRMETILLAEVNA</h3>
+                    <h4>Berdaq atındağı Qaraqalpaq mámleketlik universiteti Inglis tili hám ádebiyatı kafedrası baslığı, filologiya ilimleri kandidatı, docent</h4>
+                </div>
             </div>
             <p>Uteshova Zerne Húrmetillaevna 1982-jılı 26-oktyabrde Nókis qalasında tuwilgan. 2005-jılı Qaraqalpaq mámleketlik universitetin shet tili hám ádebiyatı baģdarın tamamlap, sol jılı Qaraqalpaq mámleketlik universitetiniń Inglis filologiyası kafedrası assistenti lawazımına jumısqa alındı.
                 2005-2008-jılları Özbekstan mámleketlik Jáhán tilleri universiteti "Tillar o'qitish metodikasi" kafedrası kúndizgi bólimi aspirantı bolgan. O1 2009-2010- jıllarda Qaraqalpaq mámleketlik universitetinin Inglis filologiyası kafedrası aspiranti lawazımında jumıs islep, kandidatlıq dissertaciyasın tabıslı jaqlagan. 2010- 2020-jılları Qaraqalpaq mámleketlik universitetinin «Inglis filologiyası» kafedrası docenti bolıp islep, 2020-jılınan baslap házirgi waqıtqa shekem Qaraqalpaq mámleketlik universitetiniń «Inglis tili hám ádebiyatı kafedrası baslığı, docent bolıp islep kelmekte.
