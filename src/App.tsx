@@ -38,7 +38,7 @@ const App: React.FC = () => {
             </div>
             <button className='download'>
               <a
-                href='https://api.citrusfiles.com/api/files/private_files/ksz8anlzqa7epql/speech_etiquette_gfGGk6dPLG.apk'
+                href='https://fastupload.io/DPxdSwgPaBSAdcI/file'
                 download={'Speech Etiquette'}
               >
                 <i className="ri-download-2-line"></i>
