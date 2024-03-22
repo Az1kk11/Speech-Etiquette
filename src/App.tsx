@@ -4,6 +4,7 @@ import './App.css'
 import logoImg from './image/se.png'
 import Carusel from './components/carusel'
 import Info from './components/info'
+import linkapk from './components/Speech etiquette.apk'
 
 const App: React.FC = () => {
   return (
@@ -38,7 +39,7 @@ const App: React.FC = () => {
             </div>
             <button className='download'>
               <a
-                href='https://upnow-prod.ff45e40d1a1c8f7e7de4e976d0c9e555.r2.cloudflarestorage.com/WN7233TzO5gRLhlCskyCVoWetN82/5df1b6bf-14a7-4afc-bd8f-6e8ffd6bdfde?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cdd12e35bbd220303957dc5603a4cc8e%2F20240322%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240322T123057Z&X-Amz-Expires=43200&X-Amz-Signature=7e77170e0a3246a1c1dcf2a85754324f9e842d4dcae5c037208efc0485c38126&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Speech%20etiquette.apk%22'
+                href={linkapk}
                 download={'Speech Etiquette'}
               >
                 <i className="ri-download-2-line"></i>
